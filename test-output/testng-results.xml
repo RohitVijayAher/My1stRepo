@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-26T23:07:27 IST" name="Default suite" finished-at="2022-08-26T23:08:36 IST" duration-ms="69155">
+    <groups>
+    </groups>
+    <test started-at="2022-08-26T23:07:27 IST" name="Default test" finished-at="2022-08-26T23:08:36 IST" duration-ms="69155">
+      <class name="testCases.CreateNewAccounTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:testCases.CreateNewAccounTest@4fb3ee4e]" started-at="2022-08-26T23:07:27 IST" name="before" finished-at="2022-08-26T23:08:07 IST" duration-ms="39939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="NewAccountCreationTest()[pri:0, instance:testCases.CreateNewAccounTest@4fb3ee4e]" started-at="2022-08-26T23:08:07 IST" name="NewAccountCreationTest" finished-at="2022-08-26T23:08:20 IST" duration-ms="13157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAccountCreationTest -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testCases.CreateNewAccounTest@4fb3ee4e]" started-at="2022-08-26T23:08:21 IST" name="after" finished-at="2022-08-26T23:08:22 IST" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewAccountCreationTest status=SUCCESS method=CreateNewAccounTest.NewAccountCreationTest()[pri:0, instance:testCases.CreateNewAccounTest@4fb3ee4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:testCases.CreateNewAccounTest@4fb3ee4e]" started-at="2022-08-26T23:08:22 IST" name="before" finished-at="2022-08-26T23:08:36 IST" duration-ms="14089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="verifyCreateNewAccTest()[pri:1, instance:testCases.CreateNewAccounTest@4fb3ee4e]" started-at="2022-08-26T23:08:36 IST" name="verifyCreateNewAccTest" finished-at="2022-08-26T23:08:36 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccTest -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testCases.CreateNewAccounTest@4fb3ee4e]" started-at="2022-08-26T23:08:36 IST" name="after" finished-at="2022-08-26T23:08:36 IST" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateNewAccTest status=SUCCESS method=CreateNewAccounTest.verifyCreateNewAccTest()[pri:1, instance:testCases.CreateNewAccounTest@4fb3ee4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testCases.CreateNewAccounTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
